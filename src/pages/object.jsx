@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function Object() {
   const [users, setUsers] = useState([]);
-s
+
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
       .then((res) => res.json())
